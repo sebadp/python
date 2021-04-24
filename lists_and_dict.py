@@ -25,8 +25,8 @@ def run():
     #         print(f'{key} - {value}')
     #     print('-----------------------------------')
             
-    for value in my_superdict:
-        print(value.items())
+    for value in my_superdict.items():
+        print(value)
 
 if __name__ == '__main__':
     run()
